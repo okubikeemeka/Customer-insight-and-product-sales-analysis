@@ -1,17 +1,11 @@
 # CUSTOMER INSIGHT AND PRODUCT SALES ANALYSIS
-<img width="1400" alt="Executive summary dashboard" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/80e189b2-c110-46e8-8788-9bee0d2a9a57">
+<img width="1400" alt="Summary dashboard" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/8ff82a29-4653-412b-9cc4-824803bdba87">
 
 # Introduction
+Customer insight and product performance analysis help businesses to create a 360 degree view of the customers, understand market demands and how their brand impacts product purchase decisions and compares to competition. It helps companies gain better understanding of their diverse customer base and ways to tailor their products to meet the needs and expectations of customers as high performing products can drive sales and improve customer satisfaction. Some key benefits of performing these analyses include reduced churn and increased customer retention, smarter product improvements, personalized and targeted marketing strategy, increased sales and revenue and lower customer acquisition cost.
 
-
-
-
-
-
-
-
-
-
+This project employed customer insight and product performance analysis to address various business challenges for 'AdventureWorks', a fictitious e-commerce company that specializes on sales of sporting, hiking and camping equipment 
+under these product categories: Bikes, Accessories, clothing and components.
 
 # Objectives
 To obtain insights aimed at addressing various business challenges relating to:
@@ -23,13 +17,13 @@ To obtain insights aimed at addressing various business challenges relating to:
 - Sales territories and marketing campaign optimization.
 
 # Data information
-The database used for this project is **Microsoft SQL Adventureworks 2019** which tests and demonstrates different Microsoft SQL server functionalities. Some of the tables from which relevant data were extracted include: a) Customer b) SalesOrderHeader c) SalesOrderDetail d) SalesTerritory e) Person f) Product e) Product category, etc.
+The database used for this project is **Microsoft SQL Adventureworks 2019** which tests and demonstrates different Microsoft SQL server functionalities. 
 
-See link to database: <https://Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak> 
+See link to database: <https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak>
 
 # Data analysis and visualization
 **Azure Data Studio** was utilized for the SQL database queries and data analysis. The necessary information were extracted and the resulting outputs were saved and exported as **MS Excel** files in order to advance the ETL (Extraction, Transformation and Load) processes. 
-**Power BI Query editor** was used to confirm total validity of the data and the visualization dashboards were created using **Power BI**. 
+**Power BI Query editor** was used to transform and confirm total validity of the data, after which the files were loaded into **Power BI** for creation of the visualization dashboards. 
 
 # Addressing the various business objectives:
 # a) Customer segmentation
@@ -54,7 +48,7 @@ See link to database: <https://Microsoft/sql-server-samples/releases/download/ad
 
 
 ***Customer segment visualization:***
-<img width="1400" alt="Customer segmentation" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/522fed68-df46-4378-9217-f0a3b6e7af46">
+<img width="1400" alt="Customer segmentation" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/472e77e1-531f-4c9b-a4cd-371fdb186ee2">
 
 **Insights from customer segmentation:**
 -	A total of six customer segments emerged from the analysis.
@@ -107,7 +101,7 @@ See link to database: <https://Microsoft/sql-server-samples/releases/download/ad
 <img width="600" alt="Number of customers with decline in monetary value" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/b80a34af-60b7-4813-8c64-97b174beb7d0">
 
 ***Customer retention visualization:***
-<img width="1400" alt="Customer retention 2" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/b278f83b-7d8f-47b8-9a32-b71a8678552d">
+<img width="1400" alt="Customer retention" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/71eb89de-d1c4-4367-8505-f55889a4b147">
 
 **Insights from customer retention analysis:**
 -	A total of 11,649 customers had single transactional orders over the ’37 month’ review period, representing an overall churn rate of 60.93%.
@@ -134,7 +128,7 @@ See link to database: <https://Microsoft/sql-server-samples/releases/download/ad
 <img width="800" alt="Customers with high value purchase recently" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/836c3a80-4860-483f-9906-33a7a69c58e6">
 
 ***Cross-selling and upselling visualization:***
-<img width="1400" alt="Cross selling and upselling" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/fe0af95c-4310-4df9-a4a8-b0bc192ef120">
+<img width="1400" alt="Cross selling and upselling" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/de17c175-9639-4408-ace3-441d15daf40e">
 
 
 **Insights from cross-selling and upselling analysis:**
@@ -199,7 +193,7 @@ See link to database: <https://Microsoft/sql-server-samples/releases/download/ad
 <img width="1000" alt="Product categories that consistently drive high sales" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/0f23256d-3966-4333-be66-7789d20ff37e">
 
 ***Product performance and inventory management visualization:***
-<img width="1400" alt="Inventory management and product performance" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/ce0cd0fd-9183-4f6a-b590-f6197d50b164">
+<img width="1400" alt="Inventory management and product performance" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/e42589a7-c8d5-4f42-8de7-f64553dfa3f3">
 
 **Insights from analysis of product performance and inventory management:**
 -	Out of 504 total number of products, 266 were purchased by customers while 238 were unsold.
@@ -233,7 +227,7 @@ See link to database: <https://Microsoft/sql-server-samples/releases/download/ad
 <img width="800" alt="Bike sales by subcategory and country" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/3865de47-8494-4413-8961-65b55fd0d3bc">
 
 ***Visualization for sales territories and marketing campaign optimization:***
-<img width="1400" alt="Sales territories and marketing campaign optimization" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/55b2d01a-5c2c-4114-bf5f-7a217ea291ef">
+<img width="1400" alt="Sales territories and marketing campaign optimization" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/27f0b14c-b85b-45ec-8eae-e28ceb0e5473">
 
 **Insights from analysis of sales territories and marketing campaign optimization:**
 -	At 8210, USA accounted for highest number (43%) of the customer population, while Canada with 1,677 customers comprised 8.7% and lowest number of the customer base.
