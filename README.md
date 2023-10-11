@@ -2,10 +2,10 @@
 <img width="1400" alt="Summary dashboard" src="https://github.com/okubikeemeka/Customer-insight-and-product-sales-analysis/assets/136992065/8ff82a29-4653-412b-9cc4-824803bdba87">
 
 # Introduction
-Customer insight and product performance analysis help businesses to create a 360 degree view of the customers, understand market demands and how their brand impacts product purchase decisions and compares to competition. It helps companies gain better understanding of their diverse customer base and ways to tailor their products to meet the needs and expectations of customers as high performing products can drive sales and improve customer satisfaction. Some key benefits of performing these analyses include reduced churn and increased customer retention, smarter product improvements, personalized and targeted marketing strategy, increased sales and revenue and lower customer acquisition cost.
+Customer insight and product performance analysis help businesses to obtain considerable view of the customers, understand market demands and how their brand impacts product purchase decisions and compares to competition. It helps companies gain better understanding of their diverse customer base and ways to tailor their products to meet the needs and expectations of customers as high performing products can drive sales and improve customer satisfaction. Some key benefits of performing this analysis include reduced churn and increased customer retention, smarter product improvements, personalized and targeted marketing strategy, increased sales and revenue and lower customer acquisition cost.
 
 This project employed customer insight and product performance analysis to address various business challenges for 'AdventureWorks', a fictitious e-commerce company that specializes on sales of sporting, hiking and camping equipment 
-under these product categories: Bikes, Accessories, clothing and components.
+under these product categories: Bikes, Accessories, Clothing and Components.
 
 # Objectives
 To obtain insights aimed at addressing various business challenges relating to:
@@ -19,7 +19,7 @@ To obtain insights aimed at addressing various business challenges relating to:
 # Data information
 The database used for this project is **Microsoft SQL Adventureworks 2019** which tests and demonstrates different Microsoft SQL server functionalities. 
 
-See link to database: <https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak>
+See link to database: <https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms>
 
 # Data analysis and visualization
 **Azure Data Studio** was utilized for the SQL database queries and data analysis. The necessary information were extracted and the resulting outputs were saved and exported as **MS Excel** files in order to advance the ETL (Extraction, Transformation and Load) processes. 
